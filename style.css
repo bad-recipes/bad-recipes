@@ -3,7 +3,17 @@ body {
 }
 
 #site-header {
+  display: block;
+  position:fixed;
+  width: auto;
+}
+
+#site-header {
   padding: 15px;
+  background-color:white;
+  margin-top: -20px;
+  width: 100%;
+  z-index: 100;
 }
 
 #site-header h1 {
@@ -21,6 +31,10 @@ body {
   position: relative;
   left: 10px;
   vertical-align: top;
+}
+
+nav {
+  margin-top: 40px;
 }
 
 nav ul {

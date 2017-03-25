@@ -1,0 +1,110 @@
+body {
+  padding: 20px;
+}
+
+#site-header {
+  padding: 15px;
+}
+
+#site-header h1 {
+  font-size: 1.5em;
+  display: inline-block;
+  font-weight: bold;
+}
+
+#site-header h2 {
+  font-style: italic;
+  font-size: 0.5em;
+  color: rgb(100, 100, 100);
+  margin-top: 4px;
+  display: inline-block;
+  position: relative;
+  left: 10px;
+  vertical-align: top;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  flex-basis: 0;
+  flex-grow: 1;
+  background-color: #ff7701;
+  margin-right: 4px;
+  padding: 5px;
+}
+
+li a {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+li.home {
+  flex-grow: 4;
+  text-align: left;
+}
+
+#blog {
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article {
+  border: solid rgb(200, 200, 200) 1px;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+article header {
+  font-size: 1.2em;
+  border-bottom: solid #ff7701 2px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+article figure {
+  margin-bottom: 30px;
+}
+
+article figure img {
+  width: 100%;
+}
+
+figcaption {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+article ul li,
+article ol li {
+  display: block;
+  margin-bottom: 10px;
+  text-indent: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+blockquote:before,
+blockquote cite:before {
+  content: '"';
+  font-size: 1.4em;
+}
+
+blockquote cite {
+  font-style: italic;
+}
